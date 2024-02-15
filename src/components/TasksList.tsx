@@ -14,7 +14,7 @@ const TasksList = () => {
 
   return (
     <>
-      <div>TasksList</div>
+      <div>Task List</div>
       {tasks.map((task: Task) => (
         <TaskCard task={task} key={task.id} />
       ))}
